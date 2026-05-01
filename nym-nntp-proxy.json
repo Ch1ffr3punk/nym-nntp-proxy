@@ -1,0 +1,28 @@
+{
+    "proxies": [
+        {
+            "listen_addr": "127.0.0.1:1119",
+            "target_addr": "news.tcpreset.net:119",
+            "protocol": "tcp",
+            "timeout": 90,
+            "buffer_size": 32768,
+            "socks_proxy": "127.0.0.1:1080"
+        },
+        {
+            "listen_addr": "127.0.0.1:1999",
+            "target_addr": "paganini.bofh.team:119",
+            "protocol": "tcp",
+            "timeout": 90,
+            "buffer_size": 32768,
+            "socks_proxy": "127.0.0.1:1080"
+        },
+        {
+            "listen_addr": "127.0.0.1:1199",
+            "target_addr": "news.example.org:119",
+            "protocol": "tcp",
+            "timeout": 90,
+            "buffer_size": 32768,
+            "socks_proxy": "127.0.0.1:1080"
+        }
+    ]
+}
