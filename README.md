@@ -1,4 +1,4 @@
-##nym-nntp-proxy  
+nym-nntp-proxy  
 Use your favorite Usenet Newsreader and set  
 the nntp server address to 127.0.0.1 and the  
 port to 1199, to connect to the Nym Mixnet.  
